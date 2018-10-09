@@ -216,7 +216,7 @@
 	minmax(0, 1fr) minmax(0, 8.5in) minmax(0, 1fr);
 
 	grid-template-rows:
-	10% auto;
+	.5em auto;
 
 	grid-template-areas:
 	" ...  footer   ... "
@@ -340,7 +340,7 @@
 
     footer {
 	grid-area: footer;
-	align-self: end;
+	align-self: start;
 	display: inline-block;
 	margin: 0 auto;
     }
